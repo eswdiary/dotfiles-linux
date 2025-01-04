@@ -114,6 +114,8 @@ alias nv="nvim"
 alias nvc="cd ~/.config/nvim && nvim"
 alias nvd="cd ~/dotfiles && nvim"
 alias sc="cd ~/HDD/Music/Supercollider && nvim"
+alias tc="cd ~/HDD/Music/Tidal && nvim"
+alias bitwig="./Desktop/Startup_Bitwig.sh"
 
 # from ~/.bashrc
 # iBus

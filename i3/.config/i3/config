@@ -21,7 +21,9 @@ font pango:RobotoMono Nerd Font 12
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 #font pango:DejaVu Sans Mono 8
 
-# ------------------------------- monitor 
+# ------------------------------- monitor --------------------------------------
+# HDMI primary
+# right of Laptop
 exec --no-startup-id "xrandr --output eDP-1-0 --auto --rate 144 --output HDMI-A-1-0 --primary --mode 2560x1440 --right-of eDP-1-0 --rotate normal --rate 144"
 
 workspace 1 output primary
@@ -40,7 +42,7 @@ exec_always --no-startup-id picom -b
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # feh
-exec_always feh --bg-scale /home/ewd/Pictures/Wallpaper/wallhaven-x6lw2d.jpg
+exec_always feh --bg-scale /home/ewd/Pictures/Wallpaper/wallhaven-zywzdy.jpg
 
 # -------------------------------
 
