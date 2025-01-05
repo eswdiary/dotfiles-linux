@@ -6,10 +6,10 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 xrandr --output eDP-1-0 --auto --mode 1920x1080 --rate 144 --output HDMI-A-1-0 --primary --mode 2560x1440 --right-of eDP-1-0 --rotate normal --rate 144
 
 # First monitor(laptop)
-bspc monitor eDP-1-0 -d I II III
+bspc monitor eDP-1-0 -d I II III IV
 
 # Second monitor
-bspc monitor HDMI-A-1-0 -d IV V VI
+bspc monitor HDMI-A-1-0 -d V VI VII VIII
 
 bspc config border_width         1
 bspc config window_gap          10
@@ -18,6 +18,8 @@ bspc config split_ratio          0.52
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 
+bspc config pointer_follows_focus   false 
+bspc config pointer_follows_monitor true
 bspc config focus_follows_pointer   true 
 
 # bspc rule -a Gimp desktop='^8' state=floating follow=on
@@ -29,7 +31,7 @@ bspc config focus_follows_pointer   true
 # Autostart app
 sxhkd &
 picom --config $HOME/.config/picom/picom.conf &
-feh --bg-scale /home/ewd/Pictures/Wallpaper/wallhaven-zywzdy.jpg &
+feh --bg-scale /home/ewd/Pictures/Gruvbox/gruvbox_wallhaven-rd6d2m.png &
 # dunst &
 $HOME/.config/polybar/launch.sh $
 

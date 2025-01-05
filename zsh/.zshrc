@@ -107,6 +107,7 @@ export EDITOR=nvim
 export VISUAL="$EDITOR"
 
 # alias
+alias ls="eza"
 alias zshrc="nvim ~/.zshrc"
 alias cl="clear"
 alias e="exit"
@@ -133,4 +134,17 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 # oh-my-posh
 eval "$(oh-my-posh init zsh)"
 # theme config
-eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/gruvbox.omp.json)"
+eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/uew.omp.json)"
+
+# di4am0nd.omp.json
+# emodipt-extend.omp.json
+# hul10.omp.json
+# illusi0n.omp.json
+# negligible.omp.json
+# pure.omp.json
+# sim-web.omp.json
+# uew.omp.json
+
+
+# PATH
+export PATH="/home/ewd/.local/bin:$PATH"
