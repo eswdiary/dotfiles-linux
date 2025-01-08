@@ -1,5 +1,6 @@
+/* NO SPACE BETWEEN OPTIONS */
 configuration {
-	modes: "window,drun,run";
+	modes: "window,drun,run,power-menu:~/.scripts/rofi-power-menu,clipboard:greenclip print";
 /*	modes: "window,drun,run,ssh"; */
 	font: "RobotoMono Nerd Font Mono 14";
 /*	location: 0;*/
@@ -21,13 +22,13 @@ configuration {
 /*	drun-show-actions: false;*/
 /*	drun-display-format: "{name} [<span weight='light' size='small'><i>({generic})</i></span>]";*/
 /*	drun-url-launcher: "xdg-open";*/
-/*	disable-history: false;*/
+    disable-history: true;
 /*	ignored-prefixes: "";*/
 /*	sort: false;*/
 /*	sorting-method: "normal";*/
 /*	case-sensitive: false;*/
-/*	cycle: true;*/
-	sidebar-mode: true;
+	cycle: true;
+	sidebar-mode: false;
 /*	hover-select: false;*/
 /*	eh: 1;*/
 /*	auto-select: false;*/
@@ -83,8 +84,8 @@ configuration {
 /*	kb-accept-custom-alt: "Control+Shift+Return";*/
 /*	kb-accept-alt: "Shift+Return";*/
 /*	kb-delete-entry: "Shift+Delete";*/
-/*	kb-mode-next: "Shift+Right,Control+Tab";*/
-/*	kb-mode-previous: "Shift+Left,Control+ISO_Left_Tab";*/
+	kb-mode-next: "Control+Tab,bracketright";
+	kb-mode-previous: "Control+ISO_Left_Tab,bracketleft";
 /*	kb-mode-complete: "Control+l";*/
 /*	kb-row-left: "Control+Page_Up";*/
 /*	kb-row-right: "Control+Page_Down";*/
@@ -148,4 +149,5 @@ configuration {
       sorting-method:    "name";
   }
 }
-@theme "/usr/share/rofi/themes/gruvbox-dark-hard.rasi"
+
+@theme "/home/ewd/.local/share/rofi/themes/rounded-pink-dark.rasi"

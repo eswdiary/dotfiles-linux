@@ -134,15 +134,11 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 # oh-my-posh
 eval "$(oh-my-posh init zsh)"
 # theme config
-eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/uew.omp.json)"
+eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/hul10.omp.json)"
 
-# di4am0nd.omp.json
 # emodipt-extend.omp.json
 # hul10.omp.json
-# illusi0n.omp.json
 # negligible.omp.json
-# pure.omp.json
-# sim-web.omp.json
 # uew.omp.json
 
 

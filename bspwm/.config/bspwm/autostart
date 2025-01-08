@@ -1,0 +1,8 @@
+sxhkd &
+picom --config ~/.config/picom/picom.conf &
+sh ~/.config/polybar/launch.sh &
+feh --bg-scale /home/ewd/Pictures/Gruvbox/gruvbox_wallhaven-rd6d2m.png &
+greenclip daemon &
+xsetroot -cursor_name left_ptr &    # prevent from cursor "x"
+dunst &
+
