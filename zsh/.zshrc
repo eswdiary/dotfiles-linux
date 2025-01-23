@@ -115,7 +115,6 @@ alias nv="nvim"
 alias nvc="cd ~/.config/nvim && nvim"
 alias nvd="cd ~/dotfiles && nvim"
 alias sc="cd ~/HDD/Music/Supercollider && nvim"
-alias bitwig="./Desktop/Startup_Bitwig.sh"
 alias out="loginctl terminate-user $USER"
 
 # from ~/.bashrc

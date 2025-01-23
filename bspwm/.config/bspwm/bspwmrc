@@ -24,6 +24,10 @@ bspc config pointer_follows_focus   false
 bspc config pointer_follows_monitor true
 bspc config focus_follows_pointer   true 
 
+# Processing (Java GUI issue)
+bspc rule -a Processing state=floating
+
+
 # bspc rule -a Gimp desktop='^8' state=floating follow=on
 # bspc rule -a Chromium desktop='^2'
 # bspc rule -a mplayer2 state=floating
