@@ -8,10 +8,10 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 xrandr --output eDP-1-0 --auto --mode 1920x1080 --rate 144 --output HDMI-A-1-0 --primary --mode 2560x1440 --right-of eDP-1-0 --rotate normal --rate 144
 
 # First monitor(laptop)
-bspc monitor eDP-1-0 -d I II III IV
+bspc monitor eDP-1-0 -d I II III IV V VI
 
-# Second monitor
-bspc monitor HDMI-A-1-0 -d V VI VII VIII
+# Second monitor(HDMI)
+bspc monitor HDMI-A-1-0 -d VII VIII IX X XI XII
 
 bspc config border_width         1
 bspc config window_gap          10
