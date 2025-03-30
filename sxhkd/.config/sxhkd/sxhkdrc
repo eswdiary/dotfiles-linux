@@ -24,7 +24,7 @@ alt + @space
 
 # file manager
 super + e
-    thunar
+    nemo
 
 # Volume control
 XF86AudioRaiseVolume
