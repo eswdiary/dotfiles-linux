@@ -2,11 +2,11 @@
 #@/db_name	liur
 #@/db_type	tabledb
 #@/rime_version	1.8.5
-#@/tick	173740
+#@/tick	173769
 、	'	601
 “	''	3
 ”	''	1
-，	,	4547
+，	,	4549
 ‘	,'	1
 ’	,'	2
 、	,'	1
@@ -745,7 +745,7 @@ dud	dud;	1
 力	dy	1
 昧	dys	1
 曉	dyyr	2
-一	e	1014
+一	e	1015
 え	e,	4
 エ	e.	2
 與	ea	212
@@ -778,7 +778,7 @@ eberthella	eberthella	1
 亜	efe	3
 盡	eff	12
 effect	effect	1
-配	efl	40
+配	efl	41
 岇	efp	2
 醐	efu	1
 嵌	egi	12
@@ -831,7 +831,7 @@ eocene	eocene	1
 劃	er	29
 兀	erl	2
 顓	ert	1
-段	eru	20
+段	eru	21
 頸	esib	1
 酷	eso	14
 頸	et	2
@@ -856,7 +856,7 @@ eyot	eyot;	1
 下	fa	385
 顧	fb	6
 典	fba	12
-於	fbb	139
+於	fbb	140
 螢	fc	3
 巵	fcl	1
 煙	fcy	2
@@ -892,7 +892,7 @@ feedback	feedback	1
 file	file;	1
 飛	fj	3
 燈	fjd	7
-置	fje	37
+置	fje	38
 燃	fjf	1
 焠	fjj	1
 斿	fjs	3
@@ -1374,7 +1374,7 @@ irous	irous	1
 扭	jee	6
 拙	jee	3
 jeetee	jeetee	1
-抓	jei	5426
+抓	jei	5429
 jembe	jembe	1
 抓	jen	3
 授	jenu	7
@@ -1387,7 +1387,7 @@ jembe	jembe	1
 撫	jf	7
 然	jfa	115
 指	jfd	69
-撲	jfed	5
+撲	jfed	6
 拒	jff	1
 撈	jffd	1
 振	jfk	6
@@ -1410,7 +1410,7 @@ jembe	jembe	1
 ジ	ji.	4
 博	jia	1
 jib	jib;	1
-扛	jie	32664
+扛	jie	32672
 jiff	jiff;	1
 jig	jig;	5
 捕	jij	1
@@ -1454,7 +1454,7 @@ jism	jism;	2
 直	jme	70
 真	jmeb	1
 播	jmq	22
-是	jn	1257
+是	jn	1258
 揮	jnc	7
 按	jng	15
 掏	jni	1
@@ -2398,7 +2398,7 @@ plf	plf;	1
 向	pno	79
 你	pns	161
 您	pnsh	6
-個	po	496
+個	po	497
 邱	pob	65
 丘	poe	1
 岳	poe	3
@@ -2427,7 +2427,7 @@ point	point	1
 preset	preset	1
 pressure	pressure	1
 prettier	prettier	2
-到	pri	283
+到	pri	284
 print	print	1
 private	private	2
 program	program	1
@@ -2638,7 +2638,7 @@ rime	rime;	1
 驚	rnof	6
 敬	rnop	3
 蒙	rnrq	3
-落	ro	30
+落	ro	31
 ろ	ro,	2
 ロ	ro.	2
 茵	rod	1
@@ -2833,7 +2833,7 @@ soy	soy;	1
 sp	sp;	10
 総	spa	4
 space	space	1
-終	spb	15
+終	spb	16
 繳	spdp	5
 絰	spe	1
 spending	spending	1
@@ -3009,7 +3009,7 @@ true	true;	5
 檻	trvf	2
 標	ts	27
 柣	tsn	1
-檔	tso	44
+檔	tso	45
 棄	tst	7
 っ	tsu,	8
 つ	tsu,	1
@@ -3393,7 +3393,7 @@ wog	wog;	2
 希	xxn	8
 在	xy	415
 饎	xydo	1
-存	xz	40
+存	xz	42
 益	y	16
 原	ya	116
 や	ya,	1
@@ -3546,7 +3546,7 @@ yulan	yulan	1
 簡	zmd	66
 笡	zme	3
 篤	zmf	2
-算	zmr	60
+算	zmr	62
 餐	zn	10
 管	znb	20
 簺	znjy	1

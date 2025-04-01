@@ -2,11 +2,11 @@
 #@/db_name	liur
 #@/db_type	tabledb
 #@/rime_version	1.8.5
-#@/tick	173740
+#@/tick	173817
 、	'	601
 “	''	3
 ”	''	1
-，	,	4547
+，	,	4549
 ‘	,'	1
 ’	,'	2
 、	,'	1
@@ -85,7 +85,7 @@
 ↑	,z	3
 →	,z	8
 ←	,ze	1
-。	.	1352
+。	.	1353
 ・	.	3
 ．	.	1
 ；	.,	11
@@ -299,7 +299,7 @@ ayah	ayah;	2
 鉣	ayu	3
 今	ayy	59
 鑄	ayya	1
-之	az	216
+之	az	217
 azide	azide	1
 azure	azure	1
 釻	azx	1
@@ -458,7 +458,7 @@ boss	boss;	1
 bot	bot;	2
 舍	bov	1
 冺	box	4
-入	bp	270
+入	bp	271
 bp	bp;	1
 附	bpa	19
 皆	bpd	37
@@ -526,7 +526,7 @@ c	c;	1
 cabeliau	cabeliau	1
 cable	cable	2
 cage	cage;	1
-輸	cai	95
+輸	cai	96
 callback	callback	3
 callout	callout	1
 輪	cam	1
@@ -654,7 +654,7 @@ curve	curve	2
 局	cyo	10
 屆	cyu	3
 蛙	cyy	1
-的	d	2314
+的	d	2316
 歹	da	17
 だ	da,	10
 太	daa	85
@@ -745,7 +745,7 @@ dud	dud;	1
 力	dy	1
 昧	dys	1
 曉	dyyr	2
-一	e	1014
+一	e	1015
 え	e,	4
 エ	e.	2
 與	ea	212
@@ -778,7 +778,7 @@ eberthella	eberthella	1
 亜	efe	3
 盡	eff	12
 effect	effect	1
-配	efl	40
+配	efl	41
 岇	efp	2
 醐	efu	1
 嵌	egi	12
@@ -831,7 +831,7 @@ eocene	eocene	1
 劃	er	29
 兀	erl	2
 顓	ert	1
-段	eru	20
+段	eru	21
 頸	esib	1
 酷	eso	14
 頸	et	2
@@ -856,7 +856,7 @@ eyot	eyot;	1
 下	fa	385
 顧	fb	6
 典	fba	12
-於	fbb	139
+於	fbb	140
 螢	fc	3
 巵	fcl	1
 煙	fcy	2
@@ -892,7 +892,7 @@ feedback	feedback	1
 file	file;	1
 飛	fj	3
 燈	fjd	7
-置	fje	37
+置	fje	39
 燃	fjf	1
 焠	fjj	1
 斿	fjs	3
@@ -904,7 +904,7 @@ file	file;	1
 亡	fl	16
 flanger	flanger	1
 已	fll	91
-改	flp	74
+改	flp	75
 買	fmb	21
 盲	fmo	4
 遍	fmw	5
@@ -924,7 +924,7 @@ flanger	flanger	1
 熉	fomb	1
 后	foo	3
 歐	fooi	5
-啟	fop	7
+啟	fop	8
 formant	formant	1
 format	format	1
 four	four;	1
@@ -1079,7 +1079,7 @@ gup	gup;	1
 娃	gyy	1
 好	gz	198
 好	gzj	4
-時	h	222
+時	h	223
 心	ha	76
 は	ha,	4
 忖	haa	1
@@ -1300,7 +1300,7 @@ inwit	inwit	8
 誀	irj	3
 irous	irous	1
 敢	irp	1
-設	iru	88
+設	iru	89
 諏	iruv	1
 護	irvu	3
 謊	is	1
@@ -1333,7 +1333,7 @@ irous	irous	1
 掀	iz	3
 謔	ize	1
 訊	izj	34
-十	j	194
+十	j	196
 祭	ja	6
 丼	jaa	1
 博	jaja	1
@@ -1374,7 +1374,7 @@ irous	irous	1
 扭	jee	6
 拙	jee	3
 jeetee	jeetee	1
-抓	jei	5426
+抓	jei	5432
 jembe	jembe	1
 抓	jen	3
 授	jenu	7
@@ -1387,7 +1387,7 @@ jembe	jembe	1
 撫	jf	7
 然	jfa	115
 指	jfd	69
-撲	jfed	5
+撲	jfed	7
 拒	jff	1
 撈	jffd	1
 振	jfk	6
@@ -1404,13 +1404,13 @@ jembe	jembe	1
 搜	jgu	1
 妻	jgx	1
 惠	jh	2
-控	ji	2976
+控	ji	2980
 じ	ji,	3
 ぢ	ji,	1
 ジ	ji.	4
 博	jia	1
 jib	jib;	1
-扛	jie	32664
+扛	jie	32684
 jiff	jiff;	1
 jig	jig;	5
 捕	jij	1
@@ -1454,7 +1454,7 @@ jism	jism;	2
 直	jme	70
 真	jmeb	1
 播	jmq	22
-是	jn	1257
+是	jn	1258
 揮	jnc	7
 按	jng	15
 掏	jni	1
@@ -1664,7 +1664,7 @@ lets	lets;	1
 康	lew	3
 熟	lf	23
 卛	lfj	1
-變	lfp	23
+變	lfp	24
 廢	lfx	4
 廳	lh	3
 厤	lhh	1
@@ -1745,7 +1745,7 @@ live	live;	1
 亢	lrl	1
 耮	lrnd	1
 勵	lrqd	2
-度	lru	121
+度	lru	122
 牽	ls	2
 耥	lsno	1
 廠	lsnp	2
@@ -1908,7 +1908,7 @@ mp	mp;	3
 閱	mr	23
 刪	mri	9
 聞	mrj	5
-見	mrl	45
+見	mrl	46
 盶	mrr	1
 衝	mt	1
 須	mta	3
@@ -2041,9 +2041,9 @@ nox	nox;	3
 宿	nptd	21
 竅	npv	1
 救	npx	1
-幅	nq	12
+幅	nq	13
 亀	nqil	1
-用	nqj	347
+用	nqj	348
 甩	nql	3
 寓	nqnu	2
 甸	nqo	1
@@ -2398,7 +2398,7 @@ plf	plf;	1
 向	pno	79
 你	pns	161
 您	pnsh	6
-個	po	496
+個	po	497
 邱	pob	65
 丘	poe	1
 岳	poe	3
@@ -2427,7 +2427,7 @@ point	point	1
 preset	preset	1
 pressure	pressure	1
 prettier	prettier	2
-到	pri	283
+到	pri	284
 print	print	1
 private	private	2
 program	program	1
@@ -2638,7 +2638,7 @@ rime	rime;	1
 驚	rnof	6
 敬	rnop	3
 蒙	rnrq	3
-落	ro	30
+落	ro	31
 ろ	ro,	2
 ロ	ro.	2
 茵	rod	1
@@ -2704,7 +2704,7 @@ rime	rime;	1
 蕾	ruq	2
 緊	rus	6
 藿	ruv	1
-取	rux	67
+取	rux	68
 監	rvef	2
 覽	rver	6
 臨	rvoo	4
@@ -2833,7 +2833,7 @@ soy	soy;	1
 sp	sp;	10
 総	spa	4
 space	space	1
-終	spb	15
+終	spb	16
 繳	spdp	5
 絰	spe	1
 spending	spending	1
@@ -3009,7 +3009,7 @@ true	true;	5
 檻	trvf	2
 標	ts	27
 柣	tsn	1
-檔	tso	44
+檔	tso	45
 棄	tst	7
 っ	tsu,	8
 つ	tsu,	1
@@ -3082,7 +3082,7 @@ type	type;	1
 脈	ulk	1
 ull	ull;	1
 露	ulo	3
-參	um	94
+參	um	96
 霧	umpd	1
 undefined	undefined	2
 脆	unlp	1
@@ -3091,7 +3091,7 @@ undefined	undefined	2
 脭	uok	1
 台	uoo	46
 霝	uooo	1
-靈	uoow	6
+靈	uoow	7
 才	up	70
 膇	upbw	1
 霧	upd	2
@@ -3156,15 +3156,16 @@ vocal	vocal	3
 vocation	vocation	1
 裀	vod	4
 每	vom	30
+敏	vomp	2
 繁	voms	3
 售	voo	2
 voorhuis	voorhuis	1
-複	vp	2
+複	vp	3
 襖	vpd	2
 髼	vpf	1
 袶	vps	1
 被	vpx	51
-裡	vq	101
+裡	vq	102
 介	vr	9
 舞	vs	11
 繁	vsa	3
@@ -3321,7 +3322,7 @@ wog	wog;	2
 泆	wsn	1
 沙	wsp	1
 洗	wsr	19
-消	wsu	15
+消	wsu	16
 乷	wsz	1
 沄	wta	1
 湧	wtd	4
@@ -3391,9 +3392,9 @@ wog	wog;	2
 適	xwn	12
 氏	xx	2
 希	xxn	8
-在	xy	415
+在	xy	416
 饎	xydo	1
-存	xz	40
+存	xz	42
 益	y	16
 原	ya	116
 や	ya,	1
@@ -3546,7 +3547,7 @@ yulan	yulan	1
 簡	zmd	66
 笡	zme	3
 篤	zmf	2
-算	zmr	60
+算	zmr	62
 餐	zn	10
 管	znb	20
 簺	znjy	1
