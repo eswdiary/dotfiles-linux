@@ -1,0 +1,42 @@
+# Rime schema 中州輸入法的字碼檔
+# encoding: utf-8
+#
+# 最簡單的(無蝦米)輸入方案
+---
+name: liur_customWords
+version: "1"
+sort: original	#按 字詞  排序 輸入original,以 字詞頻  排序 輸入 by_weight
+#字碼格式: 字 + Tab + 字碼
+#人工編碼詞，適合超長句子，或包含數字的詞
+...
+#	myacount@gmail.com	gmail
+#	我的名字	name
+跟	ok'
+表	hk'
+遊	fw'
+實	nb'
+達	yw'
+歌	ti'
+雜	jv'
+還	ow'
+變	sp'
+認	ih'
+識	id'
+座	ly'
+鼓	yu'
+翻	me'
+模	td'
+旋	fz'
+回	oo'
+送	gw'
+購	mj'
+講	ij'
+構	tj'
+奏	fn'
+蠻	sc'
+啊	a'
+師	pn'
+避	pw'
+免	el'
+溝	wj'
+構	tj'

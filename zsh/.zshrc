@@ -114,7 +114,7 @@ alias e="exit"
 alias nv="nvim"
 alias nvc="cd ~/.config/nvim && nvim"
 alias nvd="cd ~/dotfiles && nvim"
-alias sc="cd ~/HDD/Music/Supercollider && nvim"
+alias sc="cd ~/SSD/Music/Supercollider && nvim"
 alias scd="cd ~/.local/share/SuperCollider && nvim"
 alias out="loginctl terminate-user $USER"
 
@@ -124,47 +124,8 @@ export GTK_IM_MODULE=ibus
 export XMODIFIERS=@im=ibus
 export QT_IM_MODULE=ibus
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-# brew
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-
-# oh-my-posh
-eval "$(oh-my-posh init zsh)"
-# theme config
-eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/hul10.omp.json)"
-
-# emodipt-extend.omp.json
-# hul10.omp.json
-# negligible.omp.json
-# uew.omp.json
-
-
-# PATH
+# Local path
 export PATH="/home/ewd/.local/bin:$PATH"
 
-# pnpm
-export PNPM_HOME="/home/ewd/.local/share/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
-# pnpm end
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/ewd/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/ewd/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/ewd/anaconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/ewd/anaconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-
+# Starship
+eval "$(starship init zsh)"
