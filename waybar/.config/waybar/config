@@ -141,7 +141,7 @@
     "backlight": {
         "tooltip": false,
 	    "device": "nvidia_wmi_ec_backlight",
-	    "format": "{percent}% {icon}",
+	    "format": "{icon} {percent}%",
 	    "format-icons": ["", ""]
     },
 
