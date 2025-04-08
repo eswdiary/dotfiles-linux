@@ -13,7 +13,7 @@ patch:
                 Control_L: noop,
                 Control_R: noop,
                 Shift_L: noop,
-                Shift_R: noop,
+                Shift_R: clear,
             }
     "menu/page_size": 5
     schema_list:
