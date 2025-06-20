@@ -71,6 +71,7 @@ ZSH_THEME="robbyrussell"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
+plugins=(colored-man-pages)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -117,6 +118,7 @@ alias nvd="cd ~/dotfiles && nvim"
 alias sc="cd ~/SSD/Music/Supercollider && nvim"
 alias scd="cd ~/.local/share/SuperCollider && nvim"
 alias out="loginctl terminate-user $USER"
+alias open="nautilus"
 
 # from ~/.bashrc
 # iBus
@@ -129,3 +131,4 @@ export PATH="/home/ewd/.local/bin:$PATH"
 
 # Starship
 eval "$(starship init zsh)"
+
