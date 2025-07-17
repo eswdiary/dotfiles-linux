@@ -70,8 +70,12 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
-plugins=(colored-man-pages)
+plugins=(
+    git
+    colored-man-pages
+    zsh-autosuggestions
+    zsh-syntax-highlighting
+)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -108,7 +112,6 @@ export EDITOR=nvim
 export VISUAL="$EDITOR"
 
 # alias
-alias ls="eza"
 alias zshrc="nvim ~/.zshrc"
 alias cl="clear"
 alias e="exit"
@@ -122,9 +125,9 @@ alias open="nautilus"
 
 # from ~/.bashrc
 # iBus
-export GTK_IM_MODULE=ibus
-export XMODIFIERS=@im=ibus
-export QT_IM_MODULE=ibus
+# export GTK_IM_MODULE=ibus
+# export XMODIFIERS=@im=ibus
+# export QT_IM_MODULE=ibus
 
 # Local path
 export PATH="/home/ewd/.local/bin:$PATH"
@@ -132,3 +135,19 @@ export PATH="/home/ewd/.local/bin:$PATH"
 # Starship
 eval "$(starship init zsh)"
 
+# yazi
+function y() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+	yazi "$@" --cwd-file="$tmp"
+	IFS= read -r -d '' cwd < "$tmp"
+	[ -n "$cwd" ] && [ "$cwd" != "$PWD" ] && builtin cd -- "$cwd"
+	rm -f -- "$tmp"
+}
+
+# pnpm
+export PNPM_HOME="/home/ewd/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end

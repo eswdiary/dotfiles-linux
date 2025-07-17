@@ -9,10 +9,10 @@ patch:
         good_old_caps_lock: false
         switch_key:
             {
-                Caps_Lock: clear,
+                Caps_Lock: noop,
                 Control_L: noop,
                 Control_R: noop,
-                Shift_L: noop,
+                Shift_L: clear,
                 Shift_R: clear,
             }
     "menu/page_size": 5
