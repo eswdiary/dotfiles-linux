@@ -93,6 +93,9 @@ source $ZSH/oh-my-zsh.sh
 #   export EDITOR='nvim'
 # fi
 
+export VISUAL=nvim
+export EDITOR="$VISUAL"
+
 # Compilation flags
 # export ARCHFLAGS="-arch $(uname -m)"
 
@@ -108,9 +111,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export EDITOR=nvim
-export VISUAL="$EDITOR"
-
 # alias
 alias zshrc="nvim ~/.zshrc"
 alias cl="clear"
@@ -118,16 +118,8 @@ alias e="exit"
 alias nv="nvim"
 alias nvc="cd ~/.config/nvim && nvim"
 alias nvd="cd ~/dotfiles && nvim"
-alias sc="cd ~/SSD/Music/Supercollider && nvim"
-alias scd="cd ~/.local/share/SuperCollider && nvim"
 alias out="loginctl terminate-user $USER"
 alias open="nautilus"
-
-# from ~/.bashrc
-# iBus
-# export GTK_IM_MODULE=ibus
-# export XMODIFIERS=@im=ibus
-# export QT_IM_MODULE=ibus
 
 # Local path
 export PATH="/home/ewd/.local/bin:$PATH"
@@ -151,3 +143,7 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
