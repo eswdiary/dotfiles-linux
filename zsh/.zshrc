@@ -41,7 +41,7 @@ ZSH_THEME="robbyrussell"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
+ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # You can also set it to another string to have that shown instead of the default red dots.
@@ -71,8 +71,6 @@ ZSH_THEME="robbyrussell"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-    git
-    colored-man-pages
     zsh-autosuggestions
     zsh-syntax-highlighting
 )
@@ -112,14 +110,7 @@ export EDITOR="$VISUAL"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # alias
-alias zshrc="nvim ~/.zshrc"
-alias cl="clear"
-alias e="exit"
-alias nv="nvim"
-alias nvc="cd ~/.config/nvim && nvim"
-alias nvd="cd ~/dotfiles && nvim"
 alias out="loginctl terminate-user $USER"
-alias open="nautilus"
 
 # Local path
 export PATH="/home/ewd/.local/bin:$PATH"
@@ -144,6 +135,14 @@ case ":$PATH:" in
 esac
 # pnpm end
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# homebrew
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+# fnm
+FNM_PATH="/home/ewd/.local/share/fnm"
+if [ -d "$FNM_PATH" ]; then
+  export PATH="$FNM_PATH:$PATH"
+  eval "`fnm env`"
+fi
+
+eval "$(fnm env --use-on-cd --shell zsh)"

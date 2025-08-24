@@ -1,0 +1,8 @@
+alias zshrc="nvim ~/.zshrc"
+alias cl="clear"
+alias e="exit"
+alias nv="nvim"
+alias nvc="cd ~/.config/nvim && nvim"
+alias nvd="cd ~/dotfiles && nvim"
+alias sc="cd ~/Documents/SuperCollider/ && nvim"
+alias open="nautilus"
