@@ -2,11 +2,11 @@
 #@/db_name	liur
 #@/db_type	tabledb
 #@/rime_version	1.8.5
-#@/tick	234079
+#@/tick	234115
 、	'	781
 “	''	3
 ”	''	1
-，	,	6258
+，	,	6260
 ‘	,'	1
 ’	,'	2
 、	,'	1
@@ -849,7 +849,7 @@ duration	duration	1
 力	dy	1
 昧	dys	2
 曉	dyyr	2
-一	e	1672
+一	e	1673
 え	e,	13
 エ	e.	2
 与	ea	1
@@ -877,7 +877,7 @@ editor	editor	1
 嶼	eea	1
 鄝	eebb	3
 嵦	eed	2
-出	eei	306
+出	eei	307
 翆	eekj	3
 峓	een	2
 羽	eep	1
@@ -1143,7 +1143,7 @@ function	function	28
 旋	fz'	12
 爐	fzqf	3
 旋	fzv	7
-機	g	215
+機	g	216
 瓜	ga	8
 が	ga,	11
 ガ	ga.	1
@@ -1551,10 +1551,10 @@ items	items	1
 譫	ivo	1
 誕	iw	22
 許	iwj	64
-這	iwn	748
+這	iwn	749
 語	iwo	167
 謧	iwuu	3
-我	ix	1584
+我	ix	1585
 詆	ixe	2
 ixia	ixia;	1
 譚	ixj	8
@@ -1618,7 +1618,7 @@ japanese	japanese	1
 扭	jee	6
 拙	jee	3
 jeetee	jeetee	1
-抓	jei	7383
+抓	jei	7384
 jembe	jembe	1
 抓	jen	7
 授	jenu	7
@@ -1657,7 +1657,7 @@ jembe	jembe	1
 ジ	ji.	5
 博	jia	1
 jib	jib;	1
-扛	jie	47465
+扛	jie	47472
 jiff	jiff;	3
 jig	jig;	6
 捕	jij	1
@@ -1671,7 +1671,7 @@ jism	jism;	2
 捷	jjez	4
 卒	jjj	1
 搷	jjmb	1
-提	jjn	83
+提	jjn	84
 摶	jjqa	2
 摖	jjrs	1
 顇	jjt	2
@@ -1770,7 +1770,7 @@ joy	joy;	1
 撐	jsnx	2
 抄	jsp	3
 栽	jt	6
-題	jta	324
+題	jta	326
 打	jti	69
 抲	jto	1
 雜	jtv	17
@@ -1841,7 +1841,7 @@ key	key;	14
 斤	ki	4
 き	ki,	12
 kitty	kitty	4
-開	kj	265
+開	kj	266
 璒	kjd	1
 kjeldahl	kjeldahl	2
 環	kk	48
@@ -1862,7 +1862,7 @@ kjeldahl	kjeldahl	2
 氣	kmn	8
 盾	kmo	1
 形	kmp	101
-現	kmr	311
+現	kmr	313
 長	kn	3
 球	kna	8
 瑢	knw	1
@@ -2216,7 +2216,7 @@ momo	momo;	1
 monitor	monitor	1
 mono	mono;	1
 month	month	1
-問	moo	268
+問	moo	270
 闡	mooj	1
 闆	mooo	11
 moor	moor;	1
@@ -2405,7 +2405,7 @@ nox	nox;	3
 救	npx	1
 幅	nq	22
 亀	nqil	1
-用	nqj	753
+用	nqj	754
 甩	nql	3
 寓	nqnu	2
 甸	nqo	2
@@ -2728,7 +2728,7 @@ pattern	pattern	2
 追	pbw	3
 偽	pbwf	4
 儀	pbx	1
-使	pc	352
+使	pc	353
 仲	pci	1
 僳	pcm	1
 價	pcmb	47
@@ -2829,7 +2829,7 @@ plus	plus;	1
 你	pns	213
 您	pnsh	6
 佇	pnt	1
-個	po	957
+個	po	958
 邱	pob	70
 丘	poe	1
 岳	poe	3
@@ -2864,7 +2864,7 @@ practicing	practicing	1
 preset	preset	1
 pressure	pressure	1
 prettier	prettier	2
-到	pri	483
+到	pri	485
 print	print	1
 private	private	6
 偌	pro	1
@@ -3000,9 +3000,9 @@ question	question	2
 quica	quica	1
 quit	quit;	1
 quo	quo;	1
-猺	quwu	3
+猺	quwu	4
 懼	qv	1
-遇	qw	28
+遇	qw	29
 丈	qx	1
 犽	qxp	1
 跟	qz	79
@@ -3148,7 +3148,7 @@ rrhiza	rrhiza	1
 藍	rrvf	2
 坖	rry	1
 非	rs	36
-示	rsa	143
+示	rsa	145
 祌	rsc	3
 禵	rsdb	1
 福	rseq	4
@@ -3272,7 +3272,7 @@ shell	shell	2
 シ	shi.	2
 shift	shift	1
 績	shmb	3
-shortcut	shortcut	3
+shortcut	shortcut	4
 川	si	2
 sic	sic;	1
 sidebar	sidebar	2
@@ -3851,7 +3851,7 @@ wayland	wayland	2
 淵	whi	3
 清	whu	49
 瀞	whue	1
-了	wi	573
+了	wi	574
 wibble	wibble	1
 width	width	2
 江	wie	6
@@ -4030,7 +4030,7 @@ wrapper	wrapper	1
 氏	xx	2
 郩	xxb	1
 希	xxn	15
-在	xy	782
+在	xy	783
 饎	xydo	1
 存	xz	62
 益	y	27
@@ -4186,7 +4186,7 @@ yulan	yulan	1
 歫	zff	2
 此	zfl	42
 篇	zfm	57
-些	zfr	257
+些	zfr	258
 柴	zft	1
 箶	zfu	1
 孤	zg	1

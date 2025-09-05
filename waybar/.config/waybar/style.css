@@ -103,8 +103,8 @@ tooltip {
 /* --------------------------------------- */
 
 #memory {
-  border-color: alpha(@yellow, 1);
-  color: @yellow;
+  border-color: alpha(@purple, 1);
+  color: @purple;
 }
 
 /* --------------------------------------- */
@@ -138,8 +138,8 @@ tooltip {
 /* --------------------------------------- */
 
 #pulseaudio {
-  border-color: alpha(@magenta, 1);
-  color: @magenta;
+  border-color: alpha(@white, 1);
+  color: @white;
 }
 
 /* --------------------------------------- */
@@ -157,8 +157,8 @@ tooltip {
 /* --------------------------------------- */
 
 #network {
-  color: @blue;
-  border-color: alpha(@blue, 1);
+  color: @white;
+  border-color: alpha(@white, 1);
 }
 
 /* --------------------------------------- */

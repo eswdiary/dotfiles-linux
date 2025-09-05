@@ -1,3 +1,7 @@
+///////////
+// INPUT //
+///////////
+
 // Input device configuration.
 input {
     keyboard {
@@ -36,6 +40,10 @@ input {
     focus-follows-mouse max-scroll-amount="0%"  // Focus 跟隨 mouse 移動
 }
 
+////////////
+// OUTPUT //
+////////////
+
 output "eDP-1" {
     // off
 
@@ -45,9 +53,10 @@ output "eDP-1" {
     transform "normal"
 }
 
-// Settings that influence how windows are positioned and sized.
-// Find more information on the wiki:
-// https://yalter.github.io/niri/Configuration:-Layout
+////////////
+// LAYOUT //
+////////////
+
 layout {
     gaps 10
 
@@ -107,14 +116,18 @@ layout {
     struts {}
 }
 
-// To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:
-// spawn-sh-at-startup "qs -c ~/source/qs/MyAwesomeShell"
+
+//////////
+// MISC //
+//////////
+
+spawn-sh-at-startup "waypaper --restore"
 
 spawn-at-startup    "fxitx5"
 
+// 開機提示 keybinding
 hotkey-overlay {
-    // Uncomment this line to disable the "Important Hotkeys" pop-up at startup.
-    // skip-at-startup
+    skip-at-startup
 }
 
 // Uncomment this line to ask the clients to omit their client-side decorations if possible.
@@ -126,9 +139,14 @@ prefer-no-csd
 
 screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
 
-// Animation settings.
-// The wiki explains how to configure individual animations:
-// https://yalter.github.io/niri/Configuration:-Animations
+environment {
+    QT_QPA_PLATFORM "wayland"
+}
+
+///////////////
+// ANIMATION //
+///////////////
+
 animations {
     // Uncomment to turn off all animations.
     // off
@@ -136,6 +154,10 @@ animations {
     // Slow down all animations by this factor. Values below 1 speed them up instead.
     // slowdown 3.0
 }
+
+/////////////////
+// WINDOW RULE //
+/////////////////
 
 // Open the Firefox picture-in-picture player as floating by default.
 window-rule {
@@ -153,7 +175,7 @@ window-rule {
 
 window-rule {
     match app-id="kitty"
-    opacity 0.85
+    opacity 0.8
 }
 
 window-rule {
@@ -162,6 +184,10 @@ window-rule {
         off
     }
 }
+
+//////////
+// BIND //
+//////////
 
 binds {
     // `niri msg action do-something`.

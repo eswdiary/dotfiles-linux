@@ -82,30 +82,8 @@
     // ----------------------------------- //
 
     "clock": {
-        "tooltip": true,
-        "tooltip-format": "<tt>{calendar}</tt>",
-        "format": "  {:%y%m%d %I%M %p}",
-        "calendar": {
-            "mode"          : "month",
-            "mode-mon-col"  : 3,
-            "weeks-pos"     : "right",
-            "on-scroll"     : 1,
-            // Calendar color
-            "format": {
-                      "months":     "<span color='#ebdbb2'><b>{}</b></span>",
-                      "days":       "<span color='#d3869b'><b>{}</b></span>",
-                      "weeks":      "<span color='#928374'><b>w{}</b></span>",
-                      "weekdays":   "<span color='#928374'><b>{}</b></span>",
-                      "today":      "<span color='#fabd2f'><b><u>{}</u></b></span>"
-                      }
-            },
-        "actions":  {
-            "on-click-right": "mode",
-            "on-scroll-up": "tz_up",
-            "on-scroll-down": "tz_down",
-            "on-scroll-up": "shift_up",
-            "on-scroll-down": "shift_down"
-            }
+        "tooltip": false,
+        "format": " {:%y%m%d %I%M %p}",
     },
 
     // ----------------------------------- //
@@ -143,7 +121,7 @@
     // ----------------------------------- //
     
     "network": {
-        "interface": "wlp3s0",
+        "interface": "wlan0",
         "format": "{ifname}",
         "format-wifi": "{essid} ({signalStrength}%) ",
         "format-ethernet": "{ipaddr}/{cidr} 󰊗",
