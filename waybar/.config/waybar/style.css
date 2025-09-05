@@ -6,7 +6,7 @@
 
 * {
   border: none;
-  font-family: "JetBrainsMono NF";
+  font-family: "Hack Nerd Font Mono";
   font-weight: bold;
   font-size: 15px;
   min-height: 0;
@@ -18,7 +18,7 @@
 
 window#waybar {
   background-color: alpha(@background, 0.9);
-  border-radius: 8px;
+  border-radius: 12px;
   color: @foreground;
   padding: 0;
   margin: 0;
@@ -30,7 +30,7 @@ window#waybar.empty #window {
 }
 
 #window {
-  padding: 6px 12px;
+  padding: 6px 6px;
   background-color: transparent;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
@@ -49,12 +49,11 @@ window#waybar.empty #window {
 #battery {
   background-color: alpha(@background, 0.8);
   border-radius: 8px;
-  padding: 2px 16px 2px 16px;
+  padding: 4px 16px;
   margin-right: 5px;
   margin-left: 5px;
   margin-top: 5px;
   margin-bottom: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
   border-width: 2px;
   border-style: solid;
 }
@@ -104,8 +103,8 @@ tooltip {
 /* --------------------------------------- */
 
 #memory {
-  border-color: alpha(@grey, 1);
-  color: @grey;
+  border-color: alpha(@yellow, 1);
+  color: @yellow;
 }
 
 /* --------------------------------------- */
@@ -148,8 +147,8 @@ tooltip {
 /* --------------------------------------- */
 
 #clock {
-  color: @grey;
-  border-color: alpha(@grey, 1);
+  color: @blue;
+  border-color: alpha(@blue, 1);
   margin-left: 10px;
 }
 
