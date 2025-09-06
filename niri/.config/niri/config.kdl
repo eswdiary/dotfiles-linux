@@ -185,6 +185,11 @@ window-rule {
     }
 }
 
+window-rule {
+    match app-id="org.gnome.Solanum"
+    open-floating true
+}
+
 //////////
 // BIND //
 //////////
@@ -203,7 +208,7 @@ binds {
     Alt+Space hotkey-overlay-title="wofi" { spawn-sh "wofi --show drun"; }
 
     // Swaylock
-    // Mod+Shift+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
+    Mod+Shift+P hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
 
 
     Super+Alt+S allow-when-locked=true hotkey-overlay-title=null { spawn-sh "pkill orca || exec orca"; }

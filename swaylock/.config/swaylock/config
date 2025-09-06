@@ -1,0 +1,14 @@
+ignore-empty-password
+image=/home/ewd/Pictures/Wallpapers/Gruvbox/starry-sky.png
+scaling=fill
+indicator-caps-lock
+font=Hack
+inside-color=89b48288
+inside-clear-color=7daea388
+inside-caps-lock-color=d8a65788
+inside-wrong-color=ea696288
+inside-ver-color=7daea388
+ring-color=36321a88
+ring-clear-color=0d331888
+ring-ver-color=2e3b3b88
+key-hl-color=ddc7a188

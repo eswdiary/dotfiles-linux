@@ -11,7 +11,8 @@
 /* An notification is a box that contains actions. */
 .notification {
   border-radius: 12px;
-  border: 1px solid rgba(37, 36, 35, 0.9);
+  border: none;
+  // border: 1px solid rgba(37, 36, 35, 0.9);
   padding: 0;
   background: rgba(50, 48, 47, 0.95);
   box-shadow:
