@@ -125,7 +125,7 @@ spawn-sh-at-startup "waypaper --restore"
 
 spawn-at-startup    "fxitx5"
 
-// 開機提示 keybinding
+// 開機提示 binding
 hotkey-overlay {
     skip-at-startup
 }

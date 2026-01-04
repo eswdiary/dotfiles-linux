@@ -4,18 +4,18 @@ IDE:
     disableBlinkingCursor: true
     font:
       antialias: 2
-      family: Hack Nerd Font Mono
-      size: 16
-    highlightBracketContents: true
+      family: Hack
+      size: 17
+    highlightBracketContents: false
     highlightCurrentLine: false
     inactiveEditorFadeAlpha: 64
     indentWidth: 4
     insertMatchingTokens: true
-    lineWrap: true
+    lineWrap: false
     showWhitespace: false
     spaceIndent: false
     stepForwardEvaluation: false
-    theme: base16-gruvbox-dark-hard
+    theme: monokai
     themes:
       base16-gruvbox-dark-hard:
         built-in: !textFormat
@@ -128,17 +128,40 @@ IDE:
       documents-dock: ""
       help-dock: ""
       post-dock: ""
-    geometry: AdnQywADAAAAAAKcAAAAQgAABkwAAAQ6AAACnAAAAEIAAAZMAAAEOgAAAAAAAAAAB4AAAAKcAAAAQgAABkwAAAQ6
-    state: AAAA/wAAAAD9AAAAAwAAAAAAAAAAAAAAAPwCAAAAAfsAAAAcAGQAbwBjAHUAbQBlAG4AdABzAC0AZABvAGMAawAAAAAA/////wAAAF8A////AAAAAQAAAskAAAPC/AIAAAAB+wAAABIAaABlAGwAcAAtAGQAbwBjAGsAAAAAFwAAA8IAAABNAP///wAAAAMAAAOxAAABb/wBAAAAAfsAAAASAHAAbwBzAHQALQBkAG8AYwBrAQAAAAAAAAOxAAAA6AD///8AAAOxAAACVwAAAAEAAAACAAAAAQAAAAL8AAAAAA==
+    geometry: AdnQywADAAAAAAAAAAAAAAAAB2sAAAP4AAAAAAAAAAAAAAdrAAAD+AAAAAAAAAAAB4AAAAAAAAAAAAAAB2sAAAP4
+    state: AAAA/wAAAAD9AAAAAwAAAAAAAADIAAADwfwCAAAAAfsAAAAcAGQAbwBjAHUAbQBlAG4AdABzAC0AZABvAGMAawAAAAAXAAADwQAAAF8A////AAAAAQAAAsgAAAPH/AIAAAAB+wAAABIAaABlAGwAcAAtAGQAbwBjAGsBAAAAFgAAA8cAAABNAP///wAAAAMAAASjAAABPvwBAAAAAfsAAAASAHAAbwBzAHQALQBkAG8AYwBrAQAAAAAAAASjAAAA6AD///8AAASjAAACiAAAAAEAAAACAAAAAQAAAAL8AAAAAA==
   postWindow:
     lineWrap: false
     scrollback: 1000
   recentDocuments: !QVariantList
+    - /home/ewd/Documents/SuperCollider/251001.scd
+    - /home/ewd/Documents/SuperCollider/250930.scd
+    - /home/ewd/Documents/SuperCollider/250929.scd
+    - /home/ewd/Documents/SuperCollider/250928.scd
+    - /home/ewd/Documents/SuperCollider/250927.scd
     - /home/ewd/Documents/SuperCollider/250901.scd
     - /home/ewd/Documents/SuperCollider/250827.scd
     - /home/ewd/Documents/SuperCollider/250824.scd
     - /home/ewd/Documents/SuperCollider/250823.scd
     - /home/ewd/Documents/SuperCollider/250822.scd
   shortcuts:
+    editor-copy-line-down: Ctrl+Shift+V
+    editor-copy-line-up: ""
+    editor-find-next: ""
+    editor-find-previous: ""
+    editor-go-to-line: ""
+    editor-go-to-next-empty-line: ""
+    editor-go-to-prev-empty-line: ""
+    editor-indent-auto: Alt+I
+    editor-move-line-down: Alt+Down
+    editor-move-line-up: Alt+Up
+    help-lookup: Ctrl+Shift+K
+    help-lookup-for-cursor: Alt+K
     ide-settings-dialog: Ctrl+,
+    ide-show-fullscreen: ""
+    post-focus: ""
+    synth-server-mute: ""
+    synth-server-volume-down: ""
+    synth-server-volume-restore: ""
+    synth-server-volume-up: ""
   startWithSession: ""
